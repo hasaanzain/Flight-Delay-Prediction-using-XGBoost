@@ -42,12 +42,12 @@ is_delayed_60+ = 1 if CarrierDelay > 60 else 0
 
 
 ## Tech Stack
-Python
-pandas
-NumPy
-scikit-learn
-xgboost
-matplotlib
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- xgboost
+- matplotlib
 
 
 ## Installation
@@ -104,15 +104,15 @@ subsample
 
 The model is evaluated using:
 
-Accuracy → overall correctness
-Confusion Matrix → breakdown of predictions
-ROC Curve → model performance across thresholds
-AUC Score → probability that the model ranks positives higher than negatives
+- Accuracy → overall correctness
+- Confusion Matrix → breakdown of predictions
+- ROC Curve → model performance across thresholds
+- AUC Score → probability that the model ranks positives higher than negatives
 
 # Results
-Model	Accuracy	AUC
-Baseline XGBoost	~0.XX	~0.XX
-Tuned XGBoost	~0.XX	~0.XX
+- Model	Accuracy	AUC
+- Baseline XGBoost	~0.XX	~0.XX
+- Tuned XGBoost	~0.XX	~0.XX
 
 The baseline XGBoost model already captured the underlying patterns effectively. Given the feature space and dataset size, additional hyperparameter tuning resulted in minimal performance gains, suggesting the model was near its optimal capacity
 
@@ -127,34 +127,8 @@ Feature engineering significantly impacts performance
 ROC-AUC is more informative than accuracy for imbalanced datasets
 Hyperparameter tuning can meaningfully improve results
 
-⚠️ Notes & Limitations
-Target variable is directly derived from CarrierDelay
-Class imbalance may affect model performance
-One-hot encoding increases feature dimensionality
-Reconstructed categorical variables (for EDA) may not be perfectly accurate
 
 
-🔮 Future Improvements
-Add feature importance analysis
-Use SHAP values for interpretability
-Try other models (LightGBM, CatBoost)
-Handle class imbalance (SMOTE or weighting)
-Deploy as an API or dashboard
-
-
-📁 Project Structure
-.
-├── EDA.ipynb
-├── Flight_delay.csv
-├── README.md
-└── requirements.txt
-🤝 Contributing
-
-Contributions are welcome. Feel free to fork the repo and submit a pull request.
-
-📜 License
-
-This project is open source and available under the MIT License.
 
 👤 Author
 
@@ -162,4 +136,4 @@ Hasaan Mohsin
 
 Physics & Astronomy, University of Toronto
 Data Scientist & AI Engineer
-Aspiring Astronaut
+
