@@ -34,7 +34,7 @@ The cleaned dataframe includes the following features:
 - `Dest`
 - `CarrierDelay`
 
-### 🎯 Target Variable
+###  Target Variable
 
 ```python
 is_delayed_60+ = 1 if CarrierDelay > 60 else 0
@@ -116,21 +116,18 @@ The model is evaluated using:
 
 The baseline XGBoost model already captured the underlying patterns effectively. Given the feature space and dataset size, additional hyperparameter tuning resulted in minimal performance gains, suggesting the model was near its optimal capacity
 
-📉 Visualizations
+Visualizations
 
 <p align="center">
   <img src="ROC_curve.png" width="45%" />
   <img src="histogram.png" width="45%" />
 </p>
 
-
-🧠 Key Learnings
-Gradient boosting models like XGBoost are highly effective for tabular data
-Feature engineering significantly impacts performance
-ROC-AUC is more informative than accuracy for imbalanced datasets
-Hyperparameter tuning can meaningfully improve results
-
-
+Key Learnings
+- Gradient boosting models like XGBoost are highly effective for tabular data
+- Feature engineering significantly impacts performance
+- ROC-AUC is more informative than accuracy for imbalanced datasets
+- Hyperparameter tuning can meaningfully improve results
 
 
 👤 Author
