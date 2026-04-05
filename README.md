@@ -119,8 +119,8 @@ The baseline XGBoost model already captured the underlying patterns effectively.
 📉 Visualizations
 
 <p align="center">
-  <img src="images/ROC_curve.png" width="45%" />
-  <img src="images/histogram.png" width="45%" />
+  <img src="ROC_curve.png" width="45%" />
+  <img src="histogram.png" width="45%" />
 </p>
 
 
