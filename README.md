@@ -117,8 +117,11 @@ The model is evaluated using:
 The baseline XGBoost model already captured the underlying patterns effectively. Given the feature space and dataset size, additional hyperparameter tuning resulted in minimal performance gains, suggesting the model was near its optimal capacity
 
 📉 Visualizations
-Histogram of delay percentages by origin
-ROC curve for baseline and tuned models
+
+<p align="center">
+  <img src="images/ROC_curve.png" width="45%" />
+  <img src="images/histogram.png" width="45%" />
+</p>
 
 
 🧠 Key Learnings
