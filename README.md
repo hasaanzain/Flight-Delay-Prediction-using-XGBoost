@@ -120,7 +120,7 @@ Visualizations
 
 <p align="center">
   <img src="ROC_curve.png" width="45%" />
-  <img src="histogram.png" width="45%" />
+  <img src="histogram.png" width="55%" />
 </p>
 
 Key Learnings
