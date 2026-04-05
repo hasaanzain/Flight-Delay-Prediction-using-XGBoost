@@ -111,8 +111,8 @@ The model is evaluated using:
 
 # Results
 - Model	Accuracy	AUC
-- Baseline XGBoost	~0.XX	~0.XX
-- Tuned XGBoost	~0.XX	~0.XX
+- Baseline XGBoost	= 0.7135
+- Tuned XGBoost	= 0.7202
 
 The baseline XGBoost model already captured the underlying patterns effectively. Given the feature space and dataset size, additional hyperparameter tuning resulted in minimal performance gains, suggesting the model was near its optimal capacity
 
